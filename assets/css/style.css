@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background: url(bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+body{
+    background: none;
+    font-family: "Poppins", sans-serif;
+    color: #222;
+}
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+@media (max-width:480px){
+
+    footer{
+        position: relative;
+
+    }
+
+}
